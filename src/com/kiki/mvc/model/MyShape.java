@@ -90,6 +90,7 @@ public class MyShape implements Serializable{
                   Paint paint = g.getPaint();
                   g.setPaint(c);
                   g.fill(sh);
+                  g.draw(sh);
                   g.setPaint(paint);
             }
         } ,

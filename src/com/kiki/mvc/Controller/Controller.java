@@ -32,7 +32,7 @@ public class Controller {
         undoMachine = new UndoMachine();
         state = new State(model);
         state.setShape(new MyShape(new MyLine()));
-        state.setColor(Color.yellow);
+        state.setColor(Color.RED);
         panel = new MyPanel();
         panel.setController(this);
         model.addObserver(panel);

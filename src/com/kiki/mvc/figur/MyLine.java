@@ -36,4 +36,5 @@ public class MyLine extends Line2D.Double implements IRectangularShape{
     public double getMaxY() {
         return getY2();
     }
+
 }
